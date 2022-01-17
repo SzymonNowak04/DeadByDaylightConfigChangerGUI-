@@ -39,7 +39,7 @@ func main() {
 		start,
 		widget.NewLabel("Graphical options"),
 	}
-	widgets = append(widgets, miscSlider(cfg, "Resolution scale;", "ScalabilityGroups", "MenuScaleFactor", 0, 100)...)
+	widgets = append(widgets, miscSlider(cfg, "Resolution scale;", "ScalabilityGroups", "MenuScaleFactor", 67, 100)...)
 	widgets = append(widgets,
 		newButtonsGraphical(cfg, "View Distance: ", "sg.ViewDistanceQuality"),
 		newButtonsGraphical(cfg, "AntiAliasing: ", "sg.AntiAliasingQuality"),
